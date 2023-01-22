@@ -1,0 +1,29 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "\"Weekend Project - 3 about real time chat application\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SagarMaan/Real-time-chat-application.git"
+  },
+  "author": "\"Sagar Maan\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SagarMaan/Real-time-chat-application/issues"
+  },
+  "homepage": "https://github.com/SagarMaan/Real-time-chat-application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.4",
+    "nodemon": "^2.0.20",
+    "redis": "^4.5.1",
+    "socket.io": "^4.5.4"
+  }
+}
